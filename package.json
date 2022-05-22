@@ -1,8 +1,9 @@
 {
   "name": "@cloudwell/debounce",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A React component wrapper to delay the execution of certain events.",
   "main": "index.js",
+  "readme": "README.md",
   "publishConfig": {
     "access": "public"
   },
