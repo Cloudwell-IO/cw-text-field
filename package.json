@@ -1,12 +1,15 @@
 {
   "name": "@cloudwell/debounce",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A React component wrapper to delay the execution of certain events.",
   "main": "index.js",
   "readme": "README.md",
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "clean": "rm -rf dist",
     "build": "npm run clean && tsc && cp package.json README.md ./dist",
@@ -22,7 +25,7 @@
     "url": "https://github.com/Cloudwell-IO/debounce/issues"
   },
   "homepage": "https://github.com/Cloudwell-IO/debounce#readme",
-  "devDependencies": {
+  "peerDependencies": {
     "@types/react": "^16.8.0",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
